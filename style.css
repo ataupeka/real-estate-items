@@ -36,7 +36,12 @@ section{
   font-size: 50px;
 }
 
-
+.box-container{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1.5rem;
+    
+}
 .btn{
     margin-top: 1rem;
     display: inline-block;

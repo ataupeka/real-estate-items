@@ -66,11 +66,7 @@ section{
 }
 
 
-.cards .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
+
 
 .cards .box-container .box{
     border:.1rem solid rgba(0,0,0,.2);

@@ -236,6 +236,13 @@ section{
     section{
         padding:1.5rem;
     }
+    
+    .box-container{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 1.5rem;
+    
+}
 
 }
 
@@ -247,6 +254,11 @@ section{
         font-size:50%;
     }
 
-   
+    .box-container{
+ display: grid;
+ grid-template-columns: repeat(1, 1fr);
+ gap: 1.5rem;
+    
+} 
 
 }
